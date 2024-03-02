@@ -1,0 +1,21 @@
+#ifndef GEOJSONCLASS_H
+#define GEOJSONCLASS_H
+
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonDocument>
+#include <QFile>
+
+class GeojsonClass
+{
+public:
+    GeojsonClass();
+    
+    void addLine(int firstLat , int firstLon , int secondLat , int secondLon) ;
+    
+    
+    
+};
+
+#endif // GEOJSONCLASS_H
